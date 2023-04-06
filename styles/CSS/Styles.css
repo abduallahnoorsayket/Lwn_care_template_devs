@@ -72,7 +72,7 @@ p {
   color: #ffff;
 }
 .img,
-.seasonal {
+.seasonal .user-img {
   width: 100%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -345,4 +345,87 @@ p {
   color: #fbd341;
   font-weight: 700;
   font-family: "Lato", Arial, sans-serif;
+}
+
+/* TESTIMONIAL */
+.testimony-wrap {
+  display: block;
+  position: relative;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 0 20px;
+  border: 1px solid rgba(0, 0, 0, 0.02);
+  -webkit-box-shadow: 0px 5px 21px -14px rgba(0, 0, 0, 0.14);
+  -moz-box-shadow: 0px 5px 21px -14px rgba(0, 0, 0, 0.14);
+  box-shadow: 0px 5px 21px -14px rgba(0, 0, 0, 0.14);
+}
+
+.testimony-wrap .name {
+  font-weight: 500;
+  font-size: 20px;
+  margin-bottom: 0;
+  color: #000000;
+}
+.testimony-wrap .position {
+  font-size: 16px;
+  color: #4e9525;
+}
+.user-img {
+  /* height: 300px; */
+  margin-bottom: 10px;
+  z-index: 0;
+  border-radius: 50px;
+  position: relative;
+  -webkit-box-shadow: 0px 5px 21px -14px rgba(0, 0, 0, 0.14);
+  -moz-box-shadow: 0px 5px 21px -14px rgba(0, 0, 0, 0.14);
+  box-shadow: 0px 5px 21px -14px rgba(0, 0, 0, 0.14);
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 75px;
+  width: 75px;
+}
+
+.user_image_1 {
+  background-image: url(../images/person_1.jpg.webp);
+}
+.user_image_2 {
+  background-image: url(../images/person_2.jpg.webp);
+}
+.user_image_3 {
+  background-image: url(../images/person_3.jpg.webp);
+}
+
+/*  BLOG SECTION */
+.blog {
+  background: #f8f9fa !important;
+  padding: 110px 0px;
+}
+
+/* NEWS LETTER */
+.newsLetter {
+  padding: 24px 0px;
+}
+.newsLetter .form-control {
+  background: white !important;
+  border: 1px solid transparent;
+  color: rgba(0, 0, 0, 0.7) !important;
+  font-size: 16px;
+  border-radius: 5px 0px 0px 5px;
+}
+.newsLetter .submit {
+  color: #fff !important;
+  background: #396c1b !important;
+  border-radius: 0px 5px 5px 0px;
+  font-size: 16px;
+}
+.Subcribe {
+  width: 22rem;
+}
+
+/* FOOTER */
+.footer {
+  font-size: 16px;
+  background: #252525;
+  padding: 5em 0 3em 0;
 }
