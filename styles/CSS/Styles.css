@@ -71,6 +71,26 @@ p {
 .white {
   color: #ffff;
 }
+.img,
+.seasonal {
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+/* SETION HEADING & SUBHEADING */
+.container .subheading {
+  font-size: 16px;
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 900;
+  color: #4e9525;
+}
+.container h2 {
+  font-size: 30px;
+  font-weight: 700;
+}
+
 /* hero section */
 .hero {
   background-image: url("../images/bg_1.jpg.webp");
@@ -196,7 +216,8 @@ p {
 
 /* services */
 .services {
-  padding: 70px 70px;
+  padding: 40px 40px 112px 40px;
+  background: white;
 }
 .services_card {
   width: 100%;
@@ -221,4 +242,107 @@ p {
 }
 .services_card .card-title {
   font-weight: bold;
+}
+
+/* WELLCOME SECTION */
+.welcome {
+  background: #f8f9fa;
+}
+.welcome_image {
+  background-image: url("../images/about.jpg.webp");
+  background-color: #cccccc;
+  /* background-position: center; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 720px;
+}
+.welcome_text_container {
+  padding: 48px 0px;
+  margin-left: 30px;
+}
+
+.welcome_servieces_wrap .welcome_services_list {
+  font-size: 18px;
+  margin-bottom: 20px;
+  padding: 20px 30px;
+  background: #fff;
+  color: #000000;
+  border-radius: 4px;
+  position: relative;
+  display: block;
+  -webkit-box-shadow: 0px 10px 30px -4px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0px 10px 30px -4px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 10px 30px -4px rgba(0, 0, 0, 0.15);
+}
+
+.welcome_servieces_wrap .welcome_services_list .btn-custom {
+  position: absolute;
+  top: 50%;
+  right: -25px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: #4e9525;
+  opacity: 1;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  color: white;
+}
+
+.season_container {
+  padding: 7rem 0;
+}
+.seasonal_image {
+  height: 300px;
+  margin-bottom: 10px;
+  z-index: 0;
+  border-radius: 4px;
+  position: relative;
+  -webkit-box-shadow: 0px 5px 21px -14px rgba(0, 0, 0, 0.14);
+  -moz-box-shadow: 0px 5px 21px -14px rgba(0, 0, 0, 0.14);
+  box-shadow: 0px 5px 21px -14px rgba(0, 0, 0, 0.14);
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.season_image_1 {
+  background-image: url("../images/seasonal-1.jpg.webp");
+}
+.season_image_2 {
+  background-image: url("../images/seasonal-2.jpg.webp");
+}
+.season_image_3 {
+  background-image: url("../images/seasonal-4.jpg.webp");
+}
+.seasonImage_card {
+  padding: 45px 0px;
+}
+
+.seasonal .seasonImage_card_text h3 {
+  color: #000000;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+/* CONTACT US */
+.contact_us {
+  padding: 48px 0px;
+}
+.contact_us p {
+  color: white;
+}
+
+.contact_number {
+  font-size: 40px;
+  color: #fbd341;
+  font-weight: 700;
+  font-family: "Lato", Arial, sans-serif;
 }
