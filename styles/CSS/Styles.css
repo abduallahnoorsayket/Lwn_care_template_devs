@@ -399,8 +399,7 @@ p {
 /*  BLOG SECTION */
 .blog {
   background: #f8f9fa !important;
-  padding: 0rem 0  10rem 0;
-  
+  padding: 0rem 0 10rem 0;
 }
 .blog_image_1 {
   background-image: url("../images/image_1.jpg.webp");
@@ -482,4 +481,63 @@ p {
   font-size: 16px;
   background: #252525;
   padding: 80px 0px 48px;
+}
+.footer .social_media a {
+  background: rgba(255, 255, 255, 0.05);
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 4px;
+  color: #ffffff;
+  padding: 20px 20px;
+}
+.footer .social_media i {
+  font-size: 15px;
+}
+.footer .heading {
+  font-weight: normal;
+  color: #fff;
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.list-unstyled {
+  padding-left: 0;
+  list-style: none;
+}
+.footer .widget_1 ul li a {
+  color: #fff;
+}
+
+.block-23 ul {
+  padding: 0;
+}
+.block-23 ul li, .block-23 ul li > a {
+  display: table;
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+.block-23 ul li .icon {
+  width: 40px;
+  font-size: 18px;
+  padding-top: 2px;
+  color: white;
+}
+
+.block-23 ul li .icon, .block-23 ul li .text {
+  display: table-cell;
+  vertical-align: top;
+}
+
+
+
+.block-23 ul li .icon, .block-23 ul li .text {
+    display: table-cell;
+    vertical-align: top;
+}
+
+.block-23 ul li span {
+    color: rgba(255, 255, 255, 0.7);
 }
